@@ -18,7 +18,7 @@ sudo docker run -it --network=host henrydg/client:v1 python3 client.py  <IP SERV
 ```
 Retirar os <> e passar o endereço ip
 
-E por fim, executar o comando Ctrol+C no servidor e visualizar o arquivo enviado.
+E por fim, executar o comando Ctrol+C no servidor e visualizar o arquivo enviado chamado de VIDEO.mp4 .
 
 
 
