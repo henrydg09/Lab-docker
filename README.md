@@ -3,7 +3,7 @@ Laboratório sobre docker
 Primeiramente vamos escrever os comandos para utilizar o servidor em uma máquina qualquer
 
 ```
-docker run -it --network=host henrydg/server:v1 /bin/bash
+docker run -it --rm --network=host henrydg/server:v1 /bin/bash
 ```
 No terminal do container ultilizar o seguinte comando:
 ```
@@ -14,7 +14,7 @@ Desse modo o servidor fica aguardando os arquivos do cliente
 
 Posteriormente, em outra máquina vamos escrever os comandos para utilizar o cliente
 ```
-sudo docker run -it --network=host henrydg/client:v1 python3 client.py  <IP SERVIDOR>
+sudo docker run -it --rm --network=host henrydg/client:v1 python3 client.py  <IP SERVIDOR>
 ```
 Retirar os <> e passar o endereço ip
 
