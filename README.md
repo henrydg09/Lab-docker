@@ -20,7 +20,7 @@ sudo docker run -it --rm --network=host henrydg/client:v1 python3 client.py  <IP
 ```
 Retirar os <> e passar o endereço ip
 
-E por fim, executar o comando Ctrol+C no servidor e visualizar o arquivo enviado chamado de VIDEO.mp4 .
+E por fim, executar o comando Ctrl+C no servidor e visualize o arquivo enviado chamado de VIDEO.mp4 .
 
 
 
