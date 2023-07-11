@@ -1,7 +1,7 @@
 # Alunos: Henry Duarte e Julia Mendes
 
 # Lab-docker
-Laboratório sobre docker 
+Laboratório sobre docker \\ 
 Primeiramente vamos escrever os comandos para utilizar o servidor em uma máquina qualquer
 
 ```
