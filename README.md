@@ -21,7 +21,7 @@ sudo docker run -it --rm --network=host henrydg/client:v2 python3 client.py  <IP
 Retirar os <> e passar o endereço ip. Vai ser solicitado o nome do arquivo que se deseja enviar: video.mp4 ou texto.txt.
 Após isso deve-se digitar o nome do arquivo na máquina do servidor que deseja salvar.
 
-E por fim, executar o comando Ctrl+C no servidor e visualize o arquivo enviado chamado de video.mp4 .
+E por fim, executar o comando Ctrl+C no servidor e visualize o arquivo enviado.
 
 
 
